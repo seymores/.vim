@@ -38,6 +38,8 @@ set autochdir " always switch to the current file directory
 set backspace=indent,eol,start " make backspace a more flexible
 "set backup " make backup files
 "set backupdir=~/.vim/backup " where to put backup files
+set nobackup
+set noswapfile
 set clipboard+=unnamed " share windows clipboard
 set directory=~/.vim/tmp " directory to place swap files in
 set fileformats=unix,dos,mac " support all three, in this order
@@ -178,6 +180,7 @@ set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*.pyc,
     " Mappings {
     " ROT13 - fun
     map <F12> ggVGg?
+    nnoremap ; :
 
     " space / shift-space scroll in normal mode
     noremap <S-space> <C-b>
@@ -247,9 +250,8 @@ au BufRead,BufNewFile *.notes set foldtext=foldtext()
 	endif
 	" }
 set guifont=Menlo\ Regular:h14
-" set guioptions=-t
-color bclear
-" call pathogen#infect()
+color autumn
+call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
