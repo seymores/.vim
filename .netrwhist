@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/seymores/work/abacus_crawler'
 let g:netrw_dirhist_2='/Users/seymores/work/abacus_crawler/src'
 let g:netrw_dirhist_3='/Users/seymores/work/abacus_crawler/src/abacus_crawler'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/Users/seymores/work/abacus_crawler'
 let g:netrw_dirhist_5='/Users/seymores/work'
 let g:netrw_dirhist_6='/Users/seymores/work/abacus_crawler/src/abacus_crawler'
 let g:netrw_dirhist_7='/Users/seymores'
+let g:netrw_dirhist_8='/Users/ping/.vim/plugin'
+let g:netrw_dirhist_9='/Users/ping/.vim'
