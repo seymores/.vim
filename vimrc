@@ -255,7 +255,8 @@ call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
-let vimclojure#WantNailgun = 1
-let vimclojure#NailgunClient = "~/.vim/bundle/VimClojure/ng"
+" let vimclojure#WantNailgun = 1
+" let vimclojure#NailgunClient = "~/.vim/bundle/VimClojure/ng"
 let g:vimclojure#HighlightBuiltins = 1
 let g:vimclojure#ParenRainbow = 1
+set runtimepath^=~/.vim/bundle/ctrlp.vim
